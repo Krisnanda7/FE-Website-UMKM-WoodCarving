@@ -1,18 +1,24 @@
+import Image from "next/image";
+
 export default function HeroSection() {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20 px-6 md:px-16 lg:px-20 py-16 md:py-24 bg-black text-white min-h-screen">
-      <div className="text-left max-w-xl space-y-6 flex-shrink-0">
+      <div className="text-left max-w-xl space-y-6 flex-shrink-">
         <h1 className="py-10 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-wide">
           HANDMADE WOODEN CREATIONS AND BALINESE WOOD CARVINGS
         </h1>
         <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-          Explore Yuyu Wood Carving's exquisite collection of handcrafted wooden
+          Explore Yuyu Wood Carving`s exquisite collection of handcrafted wooden
           furniture and authentic Balinese carvings. Perfect for adding elegance
           to your home.
         </p>
-        <button className="cursor-pointer bg-amber-700 hover:bg-amber-600 transition-colors px-8 py-3 rounded-lg font-semibold text-white">
-          Visit Shop
-        </button>
+
+        {/* ROUTE BUTTON KE PRODUCTS */}
+        <a href={`/products`}>
+          <button className="cursor-pointer bg-amber-700 hover:bg-amber-600 transition-colors px-8 py-3 rounded-lg font-semibold text-white">
+            Visit Shop
+          </button>
+        </a>
         <div className="flex gap-12 pt-8">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold">50+</h2>

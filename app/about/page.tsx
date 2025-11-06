@@ -3,21 +3,16 @@
 import { Hammer, Shield, Award, Users, Layers } from "lucide-react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import AboutUs from "../components/aboutUs";
 
 export default function About() {
   return (
     <section id="about" className="bg-white text-black">
-      {/* Hero / Heading */}
+      {/* Navbar */}
       <Navbar />
-      <div className="relative bg-[url('/bg-carving.jpg')] bg-cover bg-center text-white py-24">
-        <div className="absolute inset-0 bg-black/70"></div>
-        <div className="relative container mx-auto px-6">
-          <h1 className="text-5xl font-extrabold mb-4">ABOUT US</h1>
-          <p className="text-sm uppercase tracking-widest text-gray-300">
-            Home / About Us
-          </p>
-        </div>
-      </div>
+
+      {/* Hero / Heading */}
+      <AboutUs />
 
       {/* Section: The Process & Quality */}
       <div className="container mx-auto px-6 py-20">
@@ -116,7 +111,7 @@ export default function About() {
           ))}
         </div>
 
-        <div className="bg-black text-white py-12">
+        {/* <div className="bg-black text-white py-12">
           <div className="container mx-auto px-6 grid md:grid-cols-3 gap-10 text-center">
             {[
               {
@@ -138,7 +133,7 @@ export default function About() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </section>

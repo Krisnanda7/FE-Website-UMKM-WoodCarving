@@ -29,9 +29,9 @@ export default function Navbar() {
           >
             About Us
           </Link>
-          <Link href="/blog" className="hover:text-amber-500 transition-colors">
+          {/* <Link href="/blog" className="hover:text-amber-500 transition-colors">
             Blog
-          </Link>
+          </Link> */}
           <Link
             href="/contact"
             className="hover:text-amber-500 transition-colors"

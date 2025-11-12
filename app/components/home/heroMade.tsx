@@ -65,15 +65,15 @@ export default function HeroMade() {
 
               {/* Hover Icons */}
               <div className="absolute bottom-0 left-0 right-0 bg-white/70 backdrop-blur-sm py-3 px-4 flex justify-center gap-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button className="p-2 rounded-full hover:bg-amber-100">
+                <button className="p-2 rounded-full hover:bg-amber-500">
                   <ShoppingCart className="w-5 h-5" />
                 </button>
-                <button className="p-2 rounded-full hover:bg-amber-100">
+                <button className="p-2 rounded-full hover:bg-amber-500">
                   <Heart className="w-5 h-5" />
                 </button>
                 <Link
                   href={`/products/${product.id}`}
-                  className="p-2 rounded-full hover:bg-amber-100"
+                  className="p-2 rounded-full hover:bg-amber-500"
                 >
                   <Eye className="w-5 h-5" />
                 </Link>

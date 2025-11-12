@@ -18,6 +18,10 @@ export default function FilterSidebar({
     "Buddha",
     "Hand",
     "Hindu God",
+    "Akar Ranting",
+    "Pepohonan",
+    "Dedaunan",
+    "Patung Dewa",
   ];
 
   const formatRupiah = (value: number) =>

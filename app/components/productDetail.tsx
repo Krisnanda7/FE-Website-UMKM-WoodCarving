@@ -47,26 +47,10 @@ export default function ProductDetail({ product }: any) {
         <div>
           <div className="relative bg-white rounded-2xl shadow overflow-hidden">
             <img
-              src={"/product5..jpeg"}
+              src={mainImage}
               alt={product.name}
               className="w-full h-[500px] object-cover"
             />
-            {/* <button className="absolute top-4 right-4 bg-white/80 hover:bg-white p-2 rounded-full shadow">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-5 h-5 text-gray-700"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M4 6h8m0 0v12m0-12l8 4v8l-8 4V6z"
-                />
-              </svg>
-            </button> */}
           </div>
 
           {/* Thumbnails */}
@@ -74,7 +58,7 @@ export default function ProductDetail({ product }: any) {
             {product.images.slice(0, 3).map((img: string, idx: number) => (
               <img
                 key={idx}
-                src={"/product5..jpeg"}
+                src={img}
                 alt={`Thumbnail ${idx}`}
                 className={`w-24 h-24 object-cover rounded-lg cursor-pointer border-2 transition ${
                   mainImage === img

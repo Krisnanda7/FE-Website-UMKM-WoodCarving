@@ -13,7 +13,7 @@ const allProducts = [
     price: "Rp1.600.000",
     description:
       "1 Set Balinese Gate, Handmade Wood Carving, Temple Gate Statue, Balinese Ornament, Home Decor.",
-    images: ["product2..jpeg", "product2..jpeg", "product2..jpeg"],
+    images: ["/product5..jpeg"],
     tags: [
       "BaliHomeDecor",
       "BalineseDecor",
@@ -31,7 +31,7 @@ const allProducts = [
     price: "Rp660.000",
     description:
       "Beautiful handmade abstract wood mask perfect for modern home decor.",
-    images: ["/images/product2.jpg"],
+    images: ["/product2..jpeg"],
     tags: ["Abstract", "Modern", "WoodCarving"],
     sku: "221",
   },
@@ -42,29 +42,40 @@ const allProducts = [
     price: "Rp560.000",
     description:
       "Beautiful handmade abstract wood mask perfect for modern home decor.",
-    images: ["/images/product3..jpeg"],
+    images: ["/product6..jpeg"],
     tags: ["Abstract", "Modern", "WoodCarving"],
     sku: "221",
   },
   {
     id: 4,
-    name: "Abstract Mask Face Wood Carving",
-    category: "Abstract",
+    name: "Frog Wall Art",
+    category: "Animal",
     price: "Rp660.000",
     description:
-      "Beautiful handmade abstract wood mask perfect for modern home decor.",
-    images: ["/images/product2.jpg"],
+      "Beautiful handmade animal wood mask perfect for modern home decor.",
+    images: ["/product3..jpeg"],
     tags: ["Abstract", "Modern", "WoodCarving"],
     sku: "221",
   },
   {
-    id: 2,
-    name: "Abstract Mask Face Wood Carving",
+    id: 5,
+    name: "Ganesha Hindu God Sculpture",
     category: "Abstract",
-    price: "Rp660.000",
+    price: "Rp1200.000",
     description:
       "Beautiful handmade abstract wood mask perfect for modern home decor.",
-    images: ["/images/product2.jpg"],
+    images: ["/ganesha.jpeg"],
+    tags: ["Abstract", "Modern", "WoodCarving"],
+    sku: "221",
+  },
+  {
+    id: 6,
+    name: "Ganesha Hindu God Sculpture",
+    category: "Abstract",
+    price: "Rp1200.000",
+    description:
+      "Beautiful handmade abstract wood mask perfect for modern home decor.",
+    images: ["/ganesha1.jpeg"],
     tags: ["Abstract", "Modern", "WoodCarving"],
     sku: "221",
   },

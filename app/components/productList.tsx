@@ -36,10 +36,17 @@ const allProducts = [
   },
   {
     id: 5,
-    name: "Hindu God Sculpture",
-    category: "Hindu God",
+    name: "Ganesha Hindu God Sculpture",
+    category: "Patung Dewa Bali",
     price: 1200000,
-    image: "/product6..jpeg",
+    image: "/ganesha.jpeg",
+  },
+  {
+    id: 6,
+    name: "Ganesha Hindu God Sculpture",
+    category: "Patung Dewa Bali",
+    price: 1200000,
+    image: "/ganesha1.jpeg",
   },
 ];
 

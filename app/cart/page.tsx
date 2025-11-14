@@ -1,6 +1,7 @@
 "use client";
 
 import { useCartStore } from "@/store/useCartStore";
+import { useState } from "react";
 
 export default function CartPage() {
   const { cart, updateQuantity, removeFromCart, clearCart } = useCartStore();

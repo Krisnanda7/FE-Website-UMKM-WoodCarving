@@ -111,16 +111,6 @@ export default function ProductDetail({ product }: any) {
             </button>
           </div>
 
-          {/* Wishlist */}
-          <div className="flex sm  gap-4 mb-6">
-            <button
-              onClick={handleAddToWishlist}
-              className="flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-lg hover:border-amber-700 transition"
-            >
-              <Heart size={18} /> Wishlist
-            </button>
-          </div>
-
           {/* Info tambahan */}
           <div className="border-t border-gray-200 pt-6 mt-8 space-y-3 text-sm">
             <p>

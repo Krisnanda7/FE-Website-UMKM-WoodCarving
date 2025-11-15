@@ -43,12 +43,6 @@ export default function Navbar() {
         {/* Desktop Right Icons */}
         <div className="hidden md:flex gap-6 items-center text-sm">
           <Link
-            href="/wishlist"
-            className="hover:text-amber-500 transition-colors"
-          >
-            Wishlist 💖
-          </Link>
-          <Link
             href="/cart"
             className="hover:text-amber-500  transition-colors"
           >
@@ -108,13 +102,6 @@ export default function Navbar() {
             className="hover:text-amber-500 transition-colors"
           >
             Cart 🛒
-          </Link>
-          <Link
-            href="/wishlist"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-amber-500 transition-colors"
-          >
-            Wishlist 💖
           </Link>
           <Link
             href="/contact"
